@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YumYard</title>
+    <!--links -->
+    <link rel="stylesheet" href="../src/style.css">
+    <script src="../src/script.js"></script>
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/png" href="../src/img/YUM.png.png">
+
+    
+</head>
+
+<body>
+    <section id="Home page">
+        <!--Home Start-->
+        <header>
+            <div id="navbar">
+                <img src="../src/img/YUM.png.png" alt="YumYard logo">
+                <nav>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="Menu.html" target="_blank">Menu</a></li>
+                        <li><a href="About.html" target="_blank">About Us</a></li>
+                        <li><a href="Contact.html" target="_blank">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <div class="btn-container">
+                    <button onclick="toggleLanguage()" class="btn btn-translate">ترجم إلى العربية</button>
+                </div>
+
+                <h1>Welcome To <span class="primary-text">YumYard</span> Restaurant </h1>
+                <p>Flavor town, right this way!</p>
+                <a href="#offers" class="btn btn-primary">Todays Specials</a>
+            </div>
+        </header>
+        <!--Home End-->
+
+        <!-- Offers Section Start -->
+        <section id="offers">
+            <div class="container">
+                <div class="title">
+                    <h2>Today's Specials</h2>
+                    <p>Flavor town, right this way!</p>
+                </div>
+                <div class="offers-items">
+                    <div>
+                        <img src="../src/img/food-menu-5.png" alt="Savory Steak Supreme">
+                        <div>
+                            <h3>Savory Steak Supreme</h3>
+                            <p>Grilled steak paired with market-fresh vegetables, seasoned to perfection.</p>
+                            <p><del>$60.00</del> <span class="primary-text">$25.00</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../src/img/food-menu-3.png" alt="Crispy Chicken Delight">
+                        <div>
+                            <h3>Crispy Chicken Delight</h3>
+                            <p>Golden-baked chicken legs, seasoned with our secret blend of spices.</p>
+                            <p><del>$60.00</del> <span class="primary-text">$30.00</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../src/img/food-menu-1.png" alt="Oceanic Delight Platter">
+                        <div>
+                            <h3>Oceanic Delight Platter</h3>
+                            <p>Dive into a symphony of flavors featuring shrimp, fish, calamari, and scallops</p>
+                            <p><del>$60.00</del> <span class="primary-text">$20.00</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Offers Section End -->
+
+        <!--footer-->
+        <footer id="footer">
+            <p>Copyright &copy; 2024 All rights reserved | made by <b> <a href="index.html"><span
+                            style="color:#383848;">YumYard</span></a> </b></p>
+        </footer>
+</body>
+
+</html>
